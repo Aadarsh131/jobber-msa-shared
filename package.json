@@ -4,7 +4,7 @@
   "description": "Helper library for JobberMSA",
   "main": "index.js",
   "engines": {
-    "node": ">= 20  "
+    "node": ">= 20"
   },
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm && tsc --outDir build/src && node scripts/build-package.js",
