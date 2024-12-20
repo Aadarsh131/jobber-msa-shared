@@ -23,7 +23,7 @@
   "author": "Aadarsh Kumar Shah",
   "repository": {
     "type": "git",
-    "url": "@Aadarsh131/jobber-msa-shared"
+    "url": "git+https://github.com/Aadarsh131/jobber-msa-shared.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
