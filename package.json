@@ -4,7 +4,7 @@
   "description": "Helper library for JobberMSA",
   "main": "index.js",
   "engines": {
-    "node": ">= 18"
+    "node": ">= 20  "
   },
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm && tsc --outDir build/src && node scripts/build-package.js",
@@ -19,7 +19,7 @@
     "tabWidth": 2
   },
   "keywords": [],
-  "name": "jobbermsa-shared",
+  "name": "@aadarsh131-org/jobbermsa-shared",
   "author": "Aadarsh Kumar Shah",
   "repository": {
     "type": "git",
@@ -39,7 +39,13 @@
     }
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "cloudinary": "^2.5.1",
+    "express": "^4.21.2",
+    "http-status-codes": "^2.3.0",
+    "mongoose": "^8.9.2",
+    "tslib": "^2.8.1",
+    "winston": "^3.17.0",
+    "winston-elasticsearch": "^0.19.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.26.4",
